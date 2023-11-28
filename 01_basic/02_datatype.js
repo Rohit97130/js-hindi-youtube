@@ -6,7 +6,7 @@ let name="hitesh"
 let age= 18
 let isLoggedIn = false
 let state =null // empty
-let start;
+let start = "" ;
 
 
 // number =>2 to power 53
@@ -25,3 +25,6 @@ console.log(typeof age);
 console.log(typeof null); // object type
 
 console.log(typeof undefined); //undefined type
+
+console.log(typeof start);
+console.log(start);
