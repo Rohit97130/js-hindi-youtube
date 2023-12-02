@@ -14,7 +14,7 @@ let userEmail; // undefined
 const id =Symbol('123')
 const anotherId =Symbol('123')
 
-console.log(id== anotherId);
+// console.log(id== anotherId);
 
 const bigNumber=34493749n
 
@@ -32,13 +32,19 @@ const heros =["shaktiman", "naagraj" ,"doga"];
 let myObj ={
     name:"rohit",
     age:22,
+    r:function(){
+        console.log("hitesh");
+    }
 }
+console.log(myObj.r());
 
 
 const myFunction = function(){
     console.log("Helllo world");
+    console.log("kjndfjkn");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+// console.log(myFunction());
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3 documentation

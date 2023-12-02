@@ -17,6 +17,6 @@ let userTwo = userOne
 
 userOne.email ="hitesh@google.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne['email']);
+console.log(userTwo.upi);
 
