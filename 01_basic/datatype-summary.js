@@ -36,7 +36,7 @@ let myObj ={
         console.log("hitesh");
     }
 }
-console.log(myObje);
+// console.log(myObje);
 
 
 const myFunction = function(){
